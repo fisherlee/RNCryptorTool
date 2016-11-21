@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0C81EEC1DE2F43E00ACD496 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C81ED91DE2F43E00ACD496 /* AppDelegate.m */; };
+		D0C81EED1DE2F43E00ACD496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0C81EDA1DE2F43E00ACD496 /* Assets.xcassets */; };
+		D0C81EEE1DE2F43E00ACD496 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C81EDB1DE2F43E00ACD496 /* Main.storyboard */; };
+		D0C81EEF1DE2F43E00ACD496 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0C81EDD1DE2F43E00ACD496 /* Info.plist */; };
+		D0C81EF01DE2F43E00ACD496 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C81EDE1DE2F43E00ACD496 /* main.m */; };
+		D0C81EF11DE2F43E00ACD496 /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C81EE31DE2F43E00ACD496 /* RNCryptor.m */; };
+		D0C81EF21DE2F43E00ACD496 /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C81EE51DE2F43E00ACD496 /* RNCryptorEngine.m */; };
+		D0C81EF31DE2F43E00ACD496 /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C81EE71DE2F43E00ACD496 /* RNDecryptor.m */; };
+		D0C81EF41DE2F43E00ACD496 /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C81EE91DE2F43E00ACD496 /* RNEncryptor.m */; };
+		D0C81EF51DE2F43E00ACD496 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C81EEB1DE2F43E00ACD496 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0C81EB11DE2E43200ACD496 /* RNCryptorTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNCryptorTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C81ED81DE2F43E00ACD496 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0C81ED91DE2F43E00ACD496 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0C81EDA1DE2F43E00ACD496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0C81EDC1DE2F43E00ACD496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0C81EDD1DE2F43E00ACD496 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0C81EDE1DE2F43E00ACD496 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0C81EE01DE2F43E00ACD496 /* RNCryptor+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCryptor+Private.h"; sourceTree = "<group>"; };
+		D0C81EE11DE2F43E00ACD496 /* RNCryptor-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-Prefix.pch"; sourceTree = "<group>"; };
+		D0C81EE21DE2F43E00ACD496 /* RNCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptor.h; sourceTree = "<group>"; };
+		D0C81EE31DE2F43E00ACD496 /* RNCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptor.m; sourceTree = "<group>"; };
+		D0C81EE41DE2F43E00ACD496 /* RNCryptorEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptorEngine.h; sourceTree = "<group>"; };
+		D0C81EE51DE2F43E00ACD496 /* RNCryptorEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptorEngine.m; sourceTree = "<group>"; };
+		D0C81EE61DE2F43E00ACD496 /* RNDecryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNDecryptor.h; sourceTree = "<group>"; };
+		D0C81EE71DE2F43E00ACD496 /* RNDecryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNDecryptor.m; sourceTree = "<group>"; };
+		D0C81EE81DE2F43E00ACD496 /* RNEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNEncryptor.h; sourceTree = "<group>"; };
+		D0C81EE91DE2F43E00ACD496 /* RNEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNEncryptor.m; sourceTree = "<group>"; };
+		D0C81EEA1DE2F43E00ACD496 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D0C81EEB1DE2F43E00ACD496 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0C81EAE1DE2E43200ACD496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0C81EA81DE2E43200ACD496 = {
+			isa = PBXGroup;
+			children = (
+				D0C81ED71DE2F43E00ACD496 /* RNCryptorTool */,
+				D0C81EB21DE2E43200ACD496 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0C81EB21DE2E43200ACD496 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0C81EB11DE2E43200ACD496 /* RNCryptorTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0C81ED71DE2F43E00ACD496 /* RNCryptorTool */ = {
+			isa = PBXGroup;
+			children = (
+				D0C81EDF1DE2F43E00ACD496 /* RNCryptor */,
+				D0C81ED81DE2F43E00ACD496 /* AppDelegate.h */,
+				D0C81ED91DE2F43E00ACD496 /* AppDelegate.m */,
+				D0C81EEA1DE2F43E00ACD496 /* ViewController.h */,
+				D0C81EEB1DE2F43E00ACD496 /* ViewController.m */,
+				D0C81EDA1DE2F43E00ACD496 /* Assets.xcassets */,
+				D0C81EDB1DE2F43E00ACD496 /* Main.storyboard */,
+				D0C81EDD1DE2F43E00ACD496 /* Info.plist */,
+				D0C81EDE1DE2F43E00ACD496 /* main.m */,
+			);
+			path = RNCryptorTool;
+			sourceTree = "<group>";
+		};
+		D0C81EDF1DE2F43E00ACD496 /* RNCryptor */ = {
+			isa = PBXGroup;
+			children = (
+				D0C81EE01DE2F43E00ACD496 /* RNCryptor+Private.h */,
+				D0C81EE11DE2F43E00ACD496 /* RNCryptor-Prefix.pch */,
+				D0C81EE21DE2F43E00ACD496 /* RNCryptor.h */,
+				D0C81EE31DE2F43E00ACD496 /* RNCryptor.m */,
+				D0C81EE41DE2F43E00ACD496 /* RNCryptorEngine.h */,
+				D0C81EE51DE2F43E00ACD496 /* RNCryptorEngine.m */,
+				D0C81EE61DE2F43E00ACD496 /* RNDecryptor.h */,
+				D0C81EE71DE2F43E00ACD496 /* RNDecryptor.m */,
+				D0C81EE81DE2F43E00ACD496 /* RNEncryptor.h */,
+				D0C81EE91DE2F43E00ACD496 /* RNEncryptor.m */,
+			);
+			path = RNCryptor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0C81EB01DE2E43200ACD496 /* RNCryptorTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0C81EC51DE2E43200ACD496 /* Build configuration list for PBXNativeTarget "RNCryptorTool" */;
+			buildPhases = (
+				D0C81EAD1DE2E43200ACD496 /* Sources */,
+				D0C81EAE1DE2E43200ACD496 /* Frameworks */,
+				D0C81EAF1DE2E43200ACD496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNCryptorTool;
+			productName = RNCryptor;
+			productReference = D0C81EB11DE2E43200ACD496 /* RNCryptorTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0C81EA91DE2E43200ACD496 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = liwei;
+				TargetAttributes = {
+					D0C81EB01DE2E43200ACD496 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D0C81EAC1DE2E43200ACD496 /* Build configuration list for PBXProject "RNCryptorTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0C81EA81DE2E43200ACD496;
+			productRefGroup = D0C81EB21DE2E43200ACD496 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0C81EB01DE2E43200ACD496 /* RNCryptorTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0C81EAF1DE2E43200ACD496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C81EED1DE2F43E00ACD496 /* Assets.xcassets in Resources */,
+				D0C81EEF1DE2F43E00ACD496 /* Info.plist in Resources */,
+				D0C81EEE1DE2F43E00ACD496 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0C81EAD1DE2E43200ACD496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C81EF51DE2F43E00ACD496 /* ViewController.m in Sources */,
+				D0C81EF21DE2F43E00ACD496 /* RNCryptorEngine.m in Sources */,
+				D0C81EF31DE2F43E00ACD496 /* RNDecryptor.m in Sources */,
+				D0C81EF41DE2F43E00ACD496 /* RNEncryptor.m in Sources */,
+				D0C81EEC1DE2F43E00ACD496 /* AppDelegate.m in Sources */,
+				D0C81EF01DE2F43E00ACD496 /* main.m in Sources */,
+				D0C81EF11DE2F43E00ACD496 /* RNCryptor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0C81EDB1DE2F43E00ACD496 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0C81EDC1DE2F43E00ACD496 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0C81EC31DE2E43200ACD496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D0C81EC41DE2E43200ACD496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D0C81EC61DE2E43200ACD496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RNCryptorTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RNCryptor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D0C81EC71DE2E43200ACD496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RNCryptorTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RNCryptor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0C81EAC1DE2E43200ACD496 /* Build configuration list for PBXProject "RNCryptorTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C81EC31DE2E43200ACD496 /* Debug */,
+				D0C81EC41DE2E43200ACD496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0C81EC51DE2E43200ACD496 /* Build configuration list for PBXNativeTarget "RNCryptorTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C81EC61DE2E43200ACD496 /* Debug */,
+				D0C81EC71DE2E43200ACD496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0C81EA91DE2E43200ACD496 /* Project object */;
+}
