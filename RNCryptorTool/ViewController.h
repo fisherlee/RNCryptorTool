@@ -11,8 +11,9 @@
 @interface ViewController : NSViewController <NSTableViewDelegate, NSTableViewDataSource>
 
 @property (nonatomic, weak) IBOutlet NSTableView *filesTableView;
+@property (nonatomic, weak) IBOutlet NSTextField *encryptFilePath;
+@property (nonatomic, weak) IBOutlet NSTextField *decryptFilePath;
 @property (nonatomic, weak) IBOutlet NSTextField *pwTextField;
-@property (nonatomic, weak) IBOutlet NSTextField *extTextField;
 @property (nonatomic, weak) IBOutlet NSButton *importButton;
 @property (nonatomic, weak) IBOutlet NSButton *delButton;
 
@@ -20,6 +21,8 @@
 
 - (IBAction)importFiles:(id)sender;
 - (IBAction)delFiles:(id)sender;
+- (IBAction)encryptAction:(id)sender;
+- (IBAction)decryptAction:(id)sender;
 
 @end
 
