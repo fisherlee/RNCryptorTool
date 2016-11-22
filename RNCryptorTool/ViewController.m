@@ -100,7 +100,6 @@ static NSString * const kEncryptURLKey = @"解密文件";
     NSError *error = nil;
     NSArray *fileURLs = [fileManager contentsOfDirectoryAtURL:url includingPropertiesForKeys:nil options:NSDirectoryEnumerationSkipsHiddenFiles error:NULL];
     if (!error && [fileURLs count] > 0) {
-
         [self saveFilesType:FileTypeDecryptor floderName:kDecryptFloder files:fileURLs];
     }
 }
@@ -115,6 +114,7 @@ static NSString * const kEncryptURLKey = @"解密文件";
     savePanel.canCreateDirectories = YES;
     [savePanel beginSheetModalForWindow:[self.view window]
                       completionHandler:^(NSInteger result) {
+                          
                           if (result == NSFileHandlingPanelOKButton) {
                               NSString *fileName = [[savePanel nameFieldStringValue] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
                               
