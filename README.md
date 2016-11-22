@@ -5,3 +5,7 @@
 > 
 - RNCryptor地址：https://github.com/RNCryptor/RNCryptor
 - 参考：http://blog.csdn.net/chenpolu/article/details/46277587
+
+截图
+
+![screenshot](https://raw.githubusercontent.com/fisherlee/RNCryptorTool/master/screenshot.png)
